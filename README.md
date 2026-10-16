@@ -106,16 +106,23 @@ By keeping telemetry routing and actuation logic strictly within the local area 
 
 ```text
 SmartLab-Safety-System/
-├── docs/                        # Architectural diagrams, PCB schematics, and project documentation
+├── docs/                                        # Architectural diagrams, research papers, and project documentation
+│   └── SmartLab_Safety_System_Research_Paper.pdf
 ├── src/
-│   ├── edge_nodes/              # ESP32 C++ firmware (sensor polling, SPI RFID, MQTT client logic)
-│   ├── pi_broker/               # Raspberry Pi 5 Mosquitto configs & headless Python relay daemon
-│   └── web_dashboard/           # Real-time HTML/CSS/JS dashboard (WebSockets Port 9001 & Paho MQTT)
-├── Aura-x9_Conference_Paper-1.pdf
-├── FY_Merged_Final (1).pdf
+│   ├── edge_nodes/                              # ESP32 C++ firmware (sensor polling, SPI RFID, MQTT client logic)
+│   ├── pi_broker/                               # Raspberry Pi 5 Mosquitto configs & headless Python relay daemon
+│   └── web_dashboard/                           # Real-time HTML/CSS/JS dashboard (WebSockets Port 9001 & Paho MQTT)
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+## 📄 Research & Publications
+
+The distributed edge-computing system architecture, hardware isolation design, and comparative MQTT/WebSocket latency benchmarks are thoroughly detailed in our conference paper:
+
+- [Read the Research Paper](docs/SmartLab_Safety_System_Research_Paper.pdf)
 
 ---
 
